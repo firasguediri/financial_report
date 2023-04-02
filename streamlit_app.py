@@ -60,12 +60,6 @@ if pdf_file is not None:
     report = get_report_from_numbers(text)
     #report = "waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     txt = col2.text_area("**Extracted Finacial report**",report,height=1100)
-    col2.download_button(
-    label="Download report as pdf",
-    data=csv,
-    file_name='report.pdf',
-    mime='text/csv',
-)
     st.write(get_X_Y_plot(report))
 
 
