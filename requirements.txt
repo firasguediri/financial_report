@@ -4,3 +4,4 @@ tabula
 pandas
 pdf2image
 pdfplumber
+poppler-utils
