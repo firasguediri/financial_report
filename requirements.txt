@@ -1,0 +1,6 @@
+streamlit
+openai
+tabula
+pandas
+pdf2image
+pdfplumber
